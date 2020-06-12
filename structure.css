@@ -1,0 +1,173 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+Body {
+	font-family: Ringside Regular A,Ringside Regular B,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
+	background: linear-gradient(360deg, #93BC93, #3b9c9c);
+	background-attachment: fixed; 
+	}
+
+main {
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	width: 85%;
+	background: #bcf0e9;
+	border-radius: 10px;
+}
+
+h2 {margin-left: 10px; padding: 5px;}
+
+h3 {margin-left: 10px;}
+
+@media screen and (min-width: 1200px){
+#container {width: 1300px; margin-left: auto; margin-right: auto;}
+}
+
+#css-table {
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	width: 85%;
+	background-color:#BCF0E9;
+	border-radius: 10px;
+	overflow: auto;
+}
+	
+#column1 {
+	display: table-cell; 
+	float: left;
+	text-align: left; 
+	width: 30%; 
+	margin: 12px;
+}
+
+#column2 {
+	display: table-cell; 
+	float: left; 
+	text-align: left;
+	margin: 12px;
+	width: 30%;
+}
+
+#column3 {
+	display: table-cell; 
+	float: left; 
+	text-align: left; 
+	margin: 12px;
+	width: 30%;
+	}
+
+#column4 {
+	display: table-cell; 
+	float: left; 
+	text-align: left; 
+	margin: 12px;
+	width: 30%;
+	}
+
+#column5 {
+	display: table-cell; 
+	float: left; 
+	text-align: left; 
+	margin: 12px;
+	width: 30%;
+	}	
+
+#css-table a:link, a:visited {
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	padding: 25px 5px 0px 5px;
+	border-radius: 10px;
+	border-style: ridge;
+	border-color: silver;
+	background-color: #93BC93;
+	display: block;
+	width: 140px;
+	height: 60px;
+	margin-bottom: 10px;
+	transition: background-color .20s ease-in;
+	}
+	
+#css-table a:hover {
+	color: black;
+	background-color: #3b9c9c;
+	padding: 25px 5px 0px 5px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	}
+
+@media screen and (max-width: 825px) {
+	
+#column1 {
+	display: table-cell; 
+	float: left;
+	clear: both;	
+	text-align: left; 
+	padding: 10px;
+}
+
+#column2 {
+	display: table-cell;
+	float: left;
+	clear: both;
+	text-align: left; 
+	padding: 10px;
+}
+
+#column3 {
+	display: table-cell;
+	float: left;
+	clear: both;
+	text-align: left; 
+	padding: 10px;
+}
+
+#column4 {
+	display: table-cell;
+	float: left; 
+	clear: both;
+	text-align: left; 
+	padding: 10px;
+}
+
+#column5 {
+	display: table-cell;
+	float: left; 
+	clear: both;
+	text-align: left; 
+	padding: 10px;
+}
+}
+
+#approach {
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+	width: 85%;
+	background: #bcf0e9;
+	border-radius: 10px;
+}
+
+#bio {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+	width: 85%;
+	background: #bcf0e9;
+	border-radius: 10px;
+}
+
+/* 
+May add border ridge back in later.
+	border-style: ridge;
+	border-style: ridge;
+	*/
