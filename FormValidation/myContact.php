@@ -1,8 +1,8 @@
 <?php
 
 // variables
-$to = 'Steve@Glendev.com';
-$subject = "Message from your website Steve@Glendev.com";
+$to = 'sglennie2001@yahoo.com';
+$subject = "Message from your website owner at GlenDev.com";
 
 $error_open = "<label class='error'>";
 $error_close = "</label>";
@@ -85,8 +85,8 @@ if (isset($_POST['submit']))
 		$message .= "Fax: " . $form['fax'] . "\n\n";
 		$message .= "Message: " . $form['comments'];
 		
-		$headers = "From: <Steve@Glendev.com>\r\n";
-		$headers .= "X-Sender: <Steve@Glendev.com>\r\n";
+		$headers = "From: <Steve@GlenDev.com>\r\n";
+		$headers .= "X-Sender: <steve.glennie@gmail.com>\r\n";
 		$headers .= "X-Mailer: PHP/". phpversion() ."\r\n";
 		$headers .= "Reply-To: " . $form['email'];
 		

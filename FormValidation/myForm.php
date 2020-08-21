@@ -2,10 +2,10 @@
 <html>
 	<head>	
 		<title>My Form Validator</title>
-		<!-- Reference to JavaScript Validator
+		
 		<script src="jquery.js"></script>  
 		<script src="validate.js"></script>  
-		-->
+	
 		<script>
 			$(document).ready(function()
 			{
