@@ -2,7 +2,6 @@
 <html>
 		<head>
 				<title>CRUD paginated</title>
-			
 		</head>
 		<body>
 			

@@ -1,4 +1,5 @@
 <?php
+	// connect to the database
 	include("connect_db_my.php");
 	
 	//create a function that will display this form
