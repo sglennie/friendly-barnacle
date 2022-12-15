@@ -7,6 +7,7 @@ temp.php
 signup.php
 Php_login_mvc/views/test_Delete.php
 Php_login_oop/includes/config.php
+Php_login_oop/includes/database.php
 Php_login_oop/models/m_auth.php
 Php_login_oop/errors
 PNG/
