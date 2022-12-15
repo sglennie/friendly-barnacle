@@ -161,7 +161,7 @@
                                         echo "ERROR: Could not prepare SQL statement.";
                                 }
                                 
-                                // redirec the user
+                                // redirect the user
                                 header("Location: view_my.php");
                         }
                         
@@ -176,4 +176,3 @@
         // close the mysqli connection
         $mysqli->close();
 ?>
-		
