@@ -4,6 +4,7 @@
 	<head>
 		<title>Tag Cloud</title>
 		<link href="views/tagStyle.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 
 	<body>
