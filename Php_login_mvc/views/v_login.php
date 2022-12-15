@@ -4,6 +4,7 @@
 	<head>
 		<title>Log In</title>
 		<link href="views/style.css" media="screen" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 
 	<body>

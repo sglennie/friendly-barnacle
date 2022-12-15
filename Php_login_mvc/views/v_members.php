@@ -2,8 +2,9 @@
 <html>
 	<head>
 		<title>Members Only!</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-		<link href="views/style.css" media="screen" rel="stylesheet" type="text/css">
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="views/style.css" rel="stylesheet">
 	</head>
 	<body> 
 
