@@ -25,12 +25,24 @@
 		<?php } ?>
 
 	
+	<div id="video">
+		<video controls width="640" height="480" autoplay muted>
+		  <source src="images/eagle.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+		
+	<!--
 		<div id="video">
 		<video controls autoplay muted loop>
 		  <source src="images/eagle.mp4" type="video/mp4">
 			Your browser does not support the video tag.
 		</video>
-		</div>	
+		<video width="640" height="480" autoplay muted>
+		  <source src="images/eagle.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+		</div>	-->
 
 	</body>
 </html>
