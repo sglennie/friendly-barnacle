@@ -7,6 +7,7 @@
 		<script src="validate.js"></script>  
 	
 		<script>
+		// The first part is just standard jQuery. Method below copied from website 'bassistance' custom validation demo.
 			$(document).ready(function()
 			{
 				jQuery.validator.addMethod("phoneUS", function(phone_number, element) 
@@ -21,7 +22,7 @@
 			});
 		</script>
 
-		<style type="text/css">
+		<style>
 			body { font-family: Arial; font-size: 12px; }
 			fieldset { border:0; }
 			label { display: block; width: 180px; float:left; clear:both; margin-top: 10px; }
@@ -33,6 +34,7 @@
 			label.error { float: left; color: red; clear:none; width:200px; padding-left: 10px; font-size: 11px; }
 			.required_msg { padding-left: 180px; clear:both; float:left; color:red; }
 		</style>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
 		
