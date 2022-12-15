@@ -8,7 +8,7 @@
 // database settings
 $server = 'localhost';
 $user = 'root';
-$pass = 'root';
+$pass = 'codefreedom';
 $db = 'oop_login';
 
 // connect to the database
