@@ -33,7 +33,7 @@ h3 {margin-left: 10px;}
 	margin-right: auto;
 	padding: 10px;
 	width: 85%;
-	background-color:#BCF0E9;
+	background-color: #BCF0E9;
 	border-radius: 10px;
 	overflow: auto;
 }
@@ -79,11 +79,11 @@ h3 {margin-left: 10px;}
 	}
 
 #column6 {
-	
-	float: right; 
+	display: table-cell;
+	float: left; 
 	text-align: left; 
-	margin: 120px;
-	width: 30%;
+	margin: 12px;
+	width: 33%;
 	}	
 
 #css-table a:link, a:visited {
@@ -105,7 +105,7 @@ h3 {margin-left: 10px;}
 #css-table a:hover {
 	color: black;
 	background-color: #3b9c9c;
-	padding: 25px 5px 0px 5px;
+	padding: 25px 5px 0 5px;
 	border-radius: 10px;
 	margin-bottom: 10px;
 	}
@@ -151,6 +151,15 @@ h3 {margin-left: 10px;}
 	text-align: left; 
 	padding: 10px;
 }
+
+#column6 {
+	display: table-cell;
+	float: left; 
+	clear: both;
+	text-align: left; 
+	padding: 10px;
+}
+
 }
 
 #approach {
@@ -178,4 +187,5 @@ h3 {margin-left: 10px;}
 May add border ridge back in later.
 	border-style: ridge;
 	border-style: ridge;
-	*/
+	
+*/
