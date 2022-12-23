@@ -2,8 +2,8 @@
 <html>
 	<head>	
 		<title>My Form Validator</title>
-		
-		<script src="jquery.js"></script>  
+	
+		<script src="jquery-3.6.3.js"></script>  
 		<script src="validate.js"></script>  
 	
 		<script>

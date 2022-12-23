@@ -57,7 +57,7 @@ if (isset($_POST['submit']))
 			$error['email'] = $error_open . "Please enter a valid email!" . $error_close;
 			$valid_form = FALSE;
 		}
-	
+
 	// check for bad data
 	if (contains_bad_str($form['name']) ||
 		contains_bad_str($form['email']) ||
